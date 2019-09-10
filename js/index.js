@@ -21,10 +21,10 @@ header_p.addEventListener('click', (event) => {
 });
 
 imgs.addEventListener('click', (event) => {
-    alert("you have clicked on a paragraph");
+    alert("Why'd you click this?");
     event.stopPropagation();// stop propagation to the body
 });
-body.addEventListener('click', (event) => alert("you have clicked on the body"));
+body.addEventListener('click', (event) => alert("You clicked, sir?"));
 
 imgs.addEventListener('click', (event) => {
     alert("Picture");
